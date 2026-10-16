@@ -1,0 +1,54 @@
+{
+  "packageId": "ru.prodilitant.rasgovorilka",
+  "host": "prodilitant-dev.github.io",
+  "name": "РАСговорилка",
+  "launcherName": "РАСговорилка",
+  "display": "fullscreen",
+  "themeColor": "#4CAF50",
+  "themeColorDark": "#000000",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#F0F2F5",
+  "enableNotifications": false,
+  "startUrl": "/RASgovorilka/",
+  "iconUrl": "https://prodilitant-dev.github.io/RASgovorilka/icon-512.png",
+  "maskableIconUrl": "https://prodilitant-dev.github.io/RASgovorilka/icon-512.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "F:\\Devel_ap\\TWA-RASgovorilka\\android.keystore",
+    "alias": "rasgovorilka"
+  },
+  "appVersionName": "1",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://prodilitant-dev.github.io/RASgovorilka/manifest.webmanifest",
+  "fallbackType": "customtabs",
+  "features": {},
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://prodilitant-dev.github.io/RASgovorilka/",
+  "minSdkVersion": 21,
+  "orientation": "any",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "protocolHandlers": [],
+  "fileHandlers": [
+    {
+      "actionUrl": "https://prodilitant-dev.github.io/RASgovorilka/",
+      "mimeTypes": [
+        "application/octet-stream"
+      ]
+    }
+  ],
+  "launchHandlerClientMode": "",
+  "displayOverride": [],
+  "appVersion": "1"
+}
