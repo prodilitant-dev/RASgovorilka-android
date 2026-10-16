@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Тема TWA-приложения РАСговорилка.
+
+    Copyright (C) 2026 Виталий (prodilitant-dev)
+    Licensed under GNU General Public License v3.0 or later.
+    See LICENSE in the project root for details.
+
+    Наследуется от прозрачной темы без ActionBar (как в стандартном шаблоне Bubblewrap),
+    но с поддержкой вырезов камеры (notch) и настройками окна.
+-->
+<resources>
+    <style name="TwaTheme" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+</resources>
