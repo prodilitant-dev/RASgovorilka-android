@@ -1,0 +1,7 @@
+{
+  "name": "rasgovorilka-android",
+  "private": true,
+  "scripts": {
+    "build:apk": "bubblewrap build && node -e \"const fs=require('fs');const p=require('./twa-manifest.json');const dst='RASgovorilka-'+p.appVersionName+'.apk';if(fs.existsSync(dst))fs.unlinkSync(dst);fs.renameSync('app-release-signed.apk',dst);console.log('Переименован в '+dst);\""
+  }
+}
