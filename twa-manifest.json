@@ -20,8 +20,8 @@
     "path": "F:\\Devel_ap\\TWA-RASgovorilka\\android.keystore",
     "alias": "rasgovorilka"
   },
-  "appVersionName": "0.9.8",
-  "appVersionCode": 98,
+  "appVersionName": "1.0.0",
+  "appVersionCode": 99,
   "shortcuts": [],
   "generatorApp": "bubblewrap-cli",
   "webManifestUrl": "https://prodilitant-dev.github.io/RASgovorilka/manifest.webmanifest",
@@ -50,5 +50,5 @@
   ],
   "launchHandlerClientMode": "",
   "displayOverride": [],
-  "appVersion": "0.9.8"
+  "appVersion": "1.0.0"
 }
